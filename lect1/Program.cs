@@ -9,7 +9,7 @@
 
 
 			Console.WriteLine("Hello, World!");
-			Console.ReadLine();
+			Console.ReadLine();  // ტექსტი
 
 
 
@@ -20,13 +20,23 @@
 			// prompt 
 
 
-			//for(let i =0; i < 10; i++)
+			//for(var i =0; i < 10; i++)
+			
 
-			//for (let i = 0; i < 10; i++)
+
+			//for (var i = 0; i < 10; i++)
 
 			//var x = 10;
 			//var x 
 			//X = 100;
+
+
+			//es6  2015
+
+
+
+			//var x = 10;
+			//x = "ssss"
 
 
 
@@ -50,17 +60,17 @@
 
 
 
-			Console.WriteLine("Enter your names");
-			string usernameInput = Console.ReadLine();
+			//Console.WriteLine("Enter your names");
+			//string usernameInput = Console.ReadLine();
 
-			Console.WriteLine("your name is " + usernameInput);
+			//Console.WriteLine("your name is " + usernameInput);
 
 
 
-			string ageString = Console.ReadLine(); // "25"
+			//string ageString = Console.ReadLine(); // "25"
 
-			byte age = byte.Parse(ageString);
-			int age5 = int.Parse(ageString);
+			//byte age = byte.Parse(ageString);
+			//int age5 = int.Parse(ageString);
 
 
 

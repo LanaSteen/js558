@@ -217,27 +217,48 @@
 			//•	უარყოფითია
 			//•	ნულია
 
-			string rame = Console.ReadLine();
+			//string rame = Console.ReadLine();
 
-			switch (rame)
-			{
-				case "admin":
-					Console.WriteLine("You have full access");
-					break;
+			//switch (rame)
+			//{
+			//	case "admin":
+			//		Console.WriteLine("You have full access");
+			//		break;
 
-				case "guest":
-					Console.WriteLine("You have hulf access");
-					break;
+			//	case "guest":
+			//		Console.WriteLine("You have hulf access");
+			//		break;
 
-				default : Console.WriteLine("unknown");
-					break;
+			//	default : Console.WriteLine("unknown");
+			//		break;
 
-			}
-
-
+			//}
 
 
+			//++  --
+			//	++x   x++
 
+
+			//if    swith
+
+
+
+			//? : 
+
+			//??  
+
+			//Console.WriteLine(5> 10 ? "metia" : "nakebia");
+
+
+			//string x = null;  // 
+
+
+			////=> 
+
+			//string? y = "text";
+
+
+			//Console.WriteLine(x ?? "rame");
 
 		}
 	}

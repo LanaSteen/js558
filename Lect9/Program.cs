@@ -1,4 +1,7 @@
-﻿namespace Lect9
+﻿using Lect9.enums;
+using Lect9.Models;
+
+namespace Lect9
 {
 	internal class Program
 	{
@@ -110,6 +113,12 @@
 
 				item.Print();
 			}
+
+
+
+
+
+			Car car1 = new Car("bMw","M5", 2026, 52200, Color.black);
 	}
 
 

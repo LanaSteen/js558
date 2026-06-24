@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Lect9.enums;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -10,11 +11,13 @@ using System.Text;
 //3. პოლიმოფიზმი
 
 
-namespace Lect9
+//overload
+
+namespace Lect9.Models
 {
 	public class Car
 	{
-		public Car(string manufacturer, string model, int year, decimal price, string color)
+		public Car(string manufacturer, string model, int year, decimal price, Color color)
 		{
 			Manufacturer = manufacturer;
 			Model = model;
@@ -32,6 +35,11 @@ namespace Lect9
 		}
 
 
+		public Car(string manufacturer)
+		{
+			Manufacturer = manufacturer;
+		}
+
 
 
 		//public Car(string manufacturer, string model, int year, decimal price, string color)
@@ -45,7 +53,7 @@ namespace Lect9
 		public string Model { get; set; }
 
 
-		private int _year;
+		private int _year; // full property
 		public int Year { 
 			get{ return _year; }
 			set
@@ -80,30 +88,18 @@ namespace Lect9
 			}
 		}
 
-
-
-
 		public decimal Price { get; set; }
 
-		public string Color { get; set; }
-
-
-
-
-
+		public Color Color { get; set; }
 
 		public void PrintInfo()
 		{
 			Console.WriteLine($"{Manufacturer} {Model} {Year} {Price} {Color}");
 		}
-
-
 		public bool IsExpencive()
 		{
 			return Price >= 100000;
 		}
-
-
 		public bool IsExactModel(string model)
 		{
 
@@ -112,7 +108,7 @@ namespace Lect9
 
 
 
-		public string GetColor()
+		public Color GetColor()
 		{
 			return Color;
 		}
@@ -122,3 +118,5 @@ namespace Lect9
 	}
 
 }
+
+

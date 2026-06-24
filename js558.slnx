@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="lect1/lect1.csproj" />
+  <Project Path="Lect10/Lect10.csproj" Id="7194c3dd-5034-4b2f-971d-5495415a626f" />
   <Project Path="lect2/lect2.csproj" Id="1c0b79a6-eb70-4a21-91f0-3372258d4a01" />
   <Project Path="lect3/lect3.csproj" Id="474c116a-b90c-4d72-93df-15fe9d09914e" />
   <Project Path="lect4/lect4.csproj" Id="828889b1-ece6-4b37-a8d3-bd6e2e01f611" />

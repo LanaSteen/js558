@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Lect9
+namespace Lect9.Models
 {
 	internal class Product
 	{

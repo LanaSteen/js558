@@ -46,9 +46,9 @@ namespace Lect10
 			//Employee employee = new Employee();
 
 			//აბსტრაქტული - ზოგადი - კონკრეტული სახე არ აქვს
-			
-		
-			string path = "C:\\Users\\l4nst\\Desktop\\jp 558\\js558\\Lect10\\Data\\CarsData.txt"
+
+
+			string path = "C:\\Users\\l4nst\\Desktop\\jp 558\\js558\\Lect10\\Data\\CarsData.txt";
 
 			string path2 = @"../../../Data/CarsData.txt";
 
